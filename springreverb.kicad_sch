@@ -1120,6 +1120,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MyLibrary:TC1044S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1447,208 +1530,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND2"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND2"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND2_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND3"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND3_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND3_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -1751,7 +1632,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "入力線はシールド線で網線の基板側は接続しない\n電源、GND2(回路)、GND3(タンク)はTL072の近く(3番ピンと6、7版番ピンの合流地点)で\n合流させて一本でジャックのsleeveへ"
+	(text "入力線はシールド線でだけど網線は片側接地\n電源、GND2(回路)、GND3(タンク)はTL072の近く(3番ピンと6、7版番ピンの合流地点)で\n合流させて一本でジャックのsleeveへ\n入力は基板に片側接地\nVR1は3本シールド線でケースに片側接地\nVR2_3は基板で片側接地"
 		(exclude_from_sim no)
 		(at 21.082 109.728 0)
 		(effects
@@ -1781,16 +1662,22 @@
 		(uuid "02a02b6d-b1b0-47c3-9653-ec9728d2f1b5")
 	)
 	(junction
+		(at 146.05 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05c4e8cb-45be-417f-b8ad-eb171adde877")
+	)
+	(junction
 		(at 143.51 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c8d8856-9c3e-40b1-af4c-4e670432e7df")
 	)
 	(junction
-		(at 43.18 130.81)
+		(at 43.18 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10926d4d-9f1e-4b5e-a32d-d76a1d6f55dd")
+		(uuid "1a8bdf79-8d0d-4b4b-be9b-6c60861e8339")
 	)
 	(junction
 		(at 139.7 151.13)
@@ -1809,12 +1696,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ba24f83-d491-44b7-8aa7-556c7304532e")
-	)
-	(junction
-		(at 184.15 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37fc5447-00dc-4aee-968c-082a9e89e039")
 	)
 	(junction
 		(at 198.12 77.47)
@@ -1851,12 +1732,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "501b2e78-b7e3-459f-8aa6-eaf16f00c929")
-	)
-	(junction
-		(at 43.18 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54b8c63f-3241-4c07-8be6-70d1632779db")
 	)
 	(junction
 		(at 175.26 62.23)
@@ -1925,10 +1800,10 @@
 		(uuid "76ff1278-5f4b-4946-a1ea-eb236493e033")
 	)
 	(junction
-		(at 191.77 161.29)
+		(at 43.18 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7dd49c59-a588-499d-bd2e-e248c5fcdcf4")
+		(uuid "847cf2e8-264f-43ed-bddc-6118081c577c")
 	)
 	(junction
 		(at 184.15 152.4)
@@ -1955,6 +1830,12 @@
 		(uuid "8c33cc0a-589b-403b-b011-6f128cd704ea")
 	)
 	(junction
+		(at 166.37 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d0aa630-a428-4d8a-8495-76326c498d1f")
+	)
+	(junction
 		(at 146.05 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1967,10 +1848,22 @@
 		(uuid "93cd29b5-333c-4eed-9eb1-19718b807ddb")
 	)
 	(junction
+		(at 139.7 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98338f81-2232-42fe-9721-fc87ecba1f2b")
+	)
+	(junction
 		(at 78.74 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c9f8396-b6c1-4134-82dc-690a845e1e58")
+	)
+	(junction
+		(at 43.18 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e530088-a158-4cde-b00a-cd8ccf369374")
 	)
 	(junction
 		(at 146.05 142.24)
@@ -1997,10 +1890,10 @@
 		(uuid "a65561f6-0f1e-4504-8a80-d4171ccc9984")
 	)
 	(junction
-		(at 43.18 140.97)
+		(at 184.15 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6b00f99-4dbf-4e48-8ac9-35c94cdf08ab")
+		(uuid "ac78fe25-ba8c-45e2-8bb8-cba45a06c662")
 	)
 	(junction
 		(at 68.58 133.35)
@@ -2031,12 +1924,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc83d327-6cd9-4547-a3c5-a584a86d5522")
-	)
-	(junction
-		(at 139.7 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc8f01a1-8a70-41b7-b653-053e2a350f23")
 	)
 	(junction
 		(at 72.39 133.35)
@@ -2079,6 +1966,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e34b6daf-1da5-4dbc-ab24-54f289f28565")
+	)
+	(junction
+		(at 116.84 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3b5a2d6-6527-4680-bf70-bd16c063a89d")
 	)
 	(junction
 		(at 166.37 49.53)
@@ -2138,13 +2031,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 138.43) (xy 43.18 140.97)
+			(xy 43.18 130.81) (xy 48.26 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00c07651-5bc6-41c7-8240-46c0500d7b3b")
+		(uuid "02892ee8-9b0d-4b4e-986f-47af35822bc6")
 	)
 	(wire
 		(pts
@@ -2158,7 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 130.81) (xy 48.26 130.81)
+			(xy 40.64 130.81) (xy 43.18 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2358,17 +2251,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 130.81) (xy 43.18 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26331aed-8379-4c98-a8be-4c003afe8688")
-	)
-	(wire
-		(pts
-			(xy 198.12 154.94) (xy 198.12 161.29)
+			(xy 198.12 154.94) (xy 198.12 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2428,6 +2311,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 152.4) (xy 184.15 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4ccd71-7008-4eee-87bd-2c667676842a")
+	)
+	(wire
+		(pts
 			(xy 187.96 82.55) (xy 184.15 82.55)
 		)
 		(stroke
@@ -2475,16 +2368,6 @@
 			(type default)
 		)
 		(uuid "39704176-ae60-42d3-950e-cea691abea71")
-	)
-	(wire
-		(pts
-			(xy 40.64 130.81) (xy 43.18 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39901745-573d-40a3-b1bb-0246328c94c4")
 	)
 	(wire
 		(pts
@@ -2628,16 +2511,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 162.56) (xy 139.7 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "483f3882-ce79-4fff-ae2c-39736727c2eb")
-	)
-	(wire
-		(pts
 			(xy 171.45 148.59) (xy 171.45 144.78)
 		)
 		(stroke
@@ -2718,16 +2591,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 134.62) (xy 71.12 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5612abd9-9085-4371-afcc-ddd5dfffaed6")
-	)
-	(wire
-		(pts
 			(xy 133.35 49.53) (xy 137.16 49.53)
 		)
 		(stroke
@@ -2788,6 +2651,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 138.43) (xy 43.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3e877e-8592-43a3-8653-94e1f2bcc99a")
+	)
+	(wire
+		(pts
 			(xy 102.87 73.66) (xy 105.41 73.66)
 		)
 		(stroke
@@ -2818,7 +2691,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 161.29) (xy 198.12 161.29)
+			(xy 184.15 162.56) (xy 198.12 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2855,6 +2728,16 @@
 			(type default)
 		)
 		(uuid "6f172b8e-51ae-4c15-94a2-0f09e75a24c8")
+	)
+	(wire
+		(pts
+			(xy 72.39 133.35) (xy 72.39 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd24fb5-7362-4ce5-b975-9faa33fa6111")
 	)
 	(wire
 		(pts
@@ -2908,6 +2791,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 162.56) (xy 184.15 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7571dc3a-14b2-42c4-90d5-1dfa233c75da")
+	)
+	(wire
+		(pts
 			(xy 133.35 68.58) (xy 140.97 68.58)
 		)
 		(stroke
@@ -2928,7 +2821,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 140.97) (xy 43.18 162.56)
+			(xy 43.18 140.97) (xy 43.18 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2985,16 +2878,6 @@
 			(type default)
 		)
 		(uuid "81f1921b-c242-4305-9ef6-f278969aca9d")
-	)
-	(wire
-		(pts
-			(xy 184.15 152.4) (xy 184.15 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8812f163-85c9-4b12-93b1-66417d9164c7")
 	)
 	(wire
 		(pts
@@ -3085,6 +2968,16 @@
 			(type default)
 		)
 		(uuid "8fe08c5d-c3c5-40b0-a27b-411753b8c847")
+	)
+	(wire
+		(pts
+			(xy 139.7 162.56) (xy 146.05 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91af4d46-b488-4f86-9fd7-14671bd55910")
 	)
 	(wire
 		(pts
@@ -3198,6 +3091,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 130.81) (xy 43.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ceee0f8-73bd-4e0b-900b-8489828827ae")
+	)
+	(wire
+		(pts
 			(xy 92.71 121.92) (xy 92.71 144.78)
 		)
 		(stroke
@@ -3258,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 160.02) (xy 146.05 161.29)
+			(xy 146.05 160.02) (xy 146.05 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3358,7 +3261,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 161.29) (xy 184.15 161.29)
+			(xy 146.05 162.56) (xy 166.37 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3438,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 162.56) (xy 139.7 162.56)
+			(xy 93.98 162.56) (xy 116.84 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3498,16 +3401,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 134.62) (xy 72.39 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1595c6-0b35-48b7-8e3b-f9dae8615bfd")
-	)
-	(wire
-		(pts
 			(xy 166.37 49.53) (xy 166.37 54.61)
 		)
 		(stroke
@@ -3555,6 +3448,16 @@
 			(type default)
 		)
 		(uuid "d02c0759-d747-44d2-80b6-9d742900e32d")
+	)
+	(wire
+		(pts
+			(xy 116.84 162.56) (xy 139.7 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d035bd7f-af07-49f7-91e2-543e0c95b161")
 	)
 	(wire
 		(pts
@@ -3658,16 +3561,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 162.56) (xy 43.18 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddeb9561-492e-4cec-8558-96e9d659aaf3")
-	)
-	(wire
-		(pts
 			(xy 162.56 144.78) (xy 162.56 153.67)
 		)
 		(stroke
@@ -3748,6 +3641,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 152.4) (xy 43.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bd17f6-13ce-493e-a2c3-6d27745fafc1")
+	)
+	(wire
+		(pts
 			(xy 92.71 91.44) (xy 92.71 97.79)
 		)
 		(stroke
@@ -3755,16 +3658,6 @@
 			(type default)
 		)
 		(uuid "e8d8e620-6168-4544-b550-1e2ca85d2966")
-	)
-	(wire
-		(pts
-			(xy 184.15 161.29) (xy 191.77 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e99cb490-a4eb-40b8-af56-475e692a32d7")
 	)
 	(wire
 		(pts
@@ -3795,16 +3688,6 @@
 			(type default)
 		)
 		(uuid "ebbb82f9-b435-464e-ab32-f5eb46db2d32")
-	)
-	(wire
-		(pts
-			(xy 191.77 161.29) (xy 191.77 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee1fb4fc-9454-469d-8b6e-ba225ad3e0ac")
 	)
 	(wire
 		(pts
@@ -3965,7 +3848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0684b4fb-1be1-4f03-aaff-161b574a47bc")
-		(property "Reference" "J11"
+		(property "Reference" "J13"
 			(at 144.145 146.05 0)
 			(effects
 				(font
@@ -3973,7 +3856,7 @@
 				)
 			)
 		)
-		(property "Value" "From2"
+		(property "Value" "FromGND"
 			(at 144.145 148.59 0)
 			(effects
 				(font
@@ -4014,72 +3897,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 191.77 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "076ea5f3-433d-47e8-81cf-cc2abccb3162")
-		(property "Reference" "#PWR06"
-			(at 191.77 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 191.77 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e3fbffb-131e-4442-acc0-56313b895725")
-		)
-		(instances
-			(project "springreverb"
-				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "#PWR06")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4094,7 +3912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fdc76a2-1f0f-46db-9824-6d28b613b940")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 135.89 29.718 90)
 			(effects
 				(font
@@ -4146,7 +3964,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4258,7 +4076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50v100u"
+		(property "Value" "1000u"
 			(at 60.96 86.4869 0)
 			(effects
 				(font
@@ -4267,7 +4085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 58.42 85.09 0)
 			(effects
 				(font
@@ -4319,7 +4137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13675da4-4dc2-4b4c-aca2-9ca62dea8c20")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 92.71 104.14 0)
 			(effects
 				(font
@@ -4369,7 +4187,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4442,6 +4260,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 38.1 152.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1738993f-6906-435a-b7f7-cf4cc850dff9")
+		(property "Reference" "J2"
+			(at 38.735 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INGND"
+			(at 38.735 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6268e20f-ad7f-4c1c-9640-82178d8a778b")
+		)
+		(instances
+			(project "springreverb"
+				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 146.05 157.48 0)
 		(unit 1)
@@ -4450,7 +4333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dab1fdc-aef4-4509-ab0c-4bce64dd9088")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 140.716 155.194 0)
 			(effects
 				(font
@@ -4504,7 +4387,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4674,7 +4557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f1761dd-db26-4206-9bed-d7085ef9300e")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 155.194 155.956 90)
 			(effects
 				(font
@@ -4728,7 +4611,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4874,7 +4757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "304ba090-d693-4369-9f51-8941d3885a50")
-		(property "Reference" "J12"
+		(property "Reference" "J14"
 			(at 147.32 136.5249 90)
 			(effects
 				(font
@@ -4925,7 +4808,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J12")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -5019,7 +4902,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25v100u"
+		(property "Value" "100u"
 			(at 161.29 59.69 90)
 			(effects
 				(font
@@ -5151,7 +5034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "381d7edc-6688-4b76-86a2-d83f3ad4ebd5")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 131.572 39.37 0)
 			(effects
 				(font
@@ -5203,7 +5086,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5218,7 +5101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38362ede-da6b-4b1f-aa09-6b81b243393b")
-		(property "Reference" "R14"
+		(property "Reference" "R7"
 			(at 113.03 137.414 90)
 			(effects
 				(font
@@ -5272,7 +5155,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "R14")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5288,7 +5171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e2fface-a3fb-479e-a58a-c3142a8180cc")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 116.84 79.8831 0)
 			(effects
 				(font
@@ -5342,7 +5225,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5501,7 +5384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25v100u"
+		(property "Value" "100u"
 			(at 164.084 23.368 90)
 			(effects
 				(font
@@ -5561,7 +5444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53229520-40aa-4ab7-827a-88f522a3b5be")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 132.334 136.652 0)
 			(effects
 				(font
@@ -5615,7 +5498,74 @@
 		(instances
 			(project ""
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J9")
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 116.84 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b633c60-fc03-4f4d-aa6b-f1716eca7dd6")
+		(property "Reference" "J8"
+			(at 118.11 156.8449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToGND"
+			(at 118.11 159.3849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 116.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b045b20f-9cb6-4832-b014-ed1cd5ea3655")
+		)
+		(instances
+			(project "springreverb"
+				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5765,7 +5715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "671cb31c-f4fd-4d41-ba37-1c948cc8e276")
-		(property "Reference" "J14"
+		(property "Reference" "J17"
 			(at 201.295 134.62 0)
 			(effects
 				(font
@@ -5814,7 +5764,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J14")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -5981,7 +5931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f1fa228-7a38-46eb-9db4-9d3e928ace30")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 78.74 158.1151 90)
 			(effects
 				(font
@@ -6032,24 +5982,42 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND3")
-		(at 139.7 165.1 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 21.59 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72d64ab6-cfb2-45ae-bb2e-bca998709f89")
-		(property "Reference" "#PWR05"
-			(at 139.7 171.45 0)
+		(uuid "715e4670-dcdc-4540-89af-f94c09e83308")
+		(property "Reference" "H1"
+			(at 24.13 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 24.13 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 21.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,16 +6025,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND3"
-			(at 139.7 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 165.1 0)
+		(property "Datasheet" "~"
+			(at 21.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,31 +6034,83 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 139.7 165.1 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37cd49ed-61f7-4d94-8e71-d1a484cef3b7")
 		)
 		(instances
 			(project ""
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "#PWR05")
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 46.99 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78eb727b-86d0-472b-8f8c-11335d5cb166")
+		(property "Reference" "H2"
+			(at 49.53 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 49.53 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "springreverb"
+				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -6252,6 +6264,70 @@
 			(project ""
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 68.58 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83d2207f-7675-4c9d-8228-c4304d7f42c9")
+		(property "Reference" "H3"
+			(at 71.12 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 71.12 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "springreverb"
+				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6467,7 +6543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "972dfc42-3420-4ff5-bdab-2b9f299514cd")
-		(property "Reference" "R15"
+		(property "Reference" "R6"
 			(at 113.03 114.554 90)
 			(effects
 				(font
@@ -6521,7 +6597,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "R15")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6537,7 +6613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bf4baf0-17bc-46a7-b53f-6135a7cddee2")
-		(property "Reference" "J10"
+		(property "Reference" "J12"
 			(at 140.208 134.366 0)
 			(effects
 				(font
@@ -6591,7 +6667,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J10")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -6676,7 +6752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6bfa6af-6846-43e7-9041-041077cdefe5")
-		(property "Reference" "J7"
+		(property "Reference" "J9"
 			(at 128.27 136.5249 90)
 			(effects
 				(font
@@ -6727,7 +6803,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6812,7 +6888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a74b3d1d-3597-4858-8933-129d98ec1c04")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 101.346 150.114 90)
 			(effects
 				(font
@@ -6866,7 +6942,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6891,7 +6967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50v100u"
+		(property "Value" "1000u"
 			(at 125.73 76.0731 0)
 			(effects
 				(font
@@ -6900,7 +6976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 123.19 77.47 0)
 			(effects
 				(font
@@ -7103,7 +7179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4d9b129-2d52-420e-9bda-d45fd6b37dcf")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 200.66 151.892 0)
 			(effects
 				(font
@@ -7157,7 +7233,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7241,7 +7317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba280675-934e-4922-8945-1653dde36112")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 136.652 54.61 0)
 			(effects
 				(font
@@ -7293,7 +7369,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7451,7 +7527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf10d730-63fc-4228-8816-11f908cd0fd3")
-		(property "Reference" "J8"
+		(property "Reference" "J10"
 			(at 128.27 147.9549 90)
 			(effects
 				(font
@@ -7502,7 +7578,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J8")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -7518,7 +7594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0927593-1dab-4482-9f95-82e95a343e62")
-		(property "Reference" "J13"
+		(property "Reference" "J15"
 			(at 167.64 139.0649 90)
 			(effects
 				(font
@@ -7569,7 +7645,71 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J13")
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 87.63 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5bc4139-d8b2-4e12-b5ca-28b46b2899d9")
+		(property "Reference" "H4"
+			(at 90.17 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 90.17 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 87.63 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 87.63 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "springreverb"
+				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7655,7 +7795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cde10baf-6606-476d-8d79-bb9f3c76df7c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 93.98 172.72 0)
 			(effects
 				(font
@@ -7705,7 +7845,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7848,72 +7988,6 @@
 			(project ""
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
 					(reference "VR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 43.18 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3e2ce57-e1c4-4df4-946f-11cb5727bf20")
-		(property "Reference" "#PWR01"
-			(at 43.18 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 43.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 43.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af76465f-292e-43ab-b609-c0db2fcd538e")
-		)
-		(instances
-			(project ""
-				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8206,7 +8280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ae9830-e2f3-4e9c-908b-6065c418cdb3")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 107.95 77.5969 0)
 			(effects
 				(font
@@ -8260,7 +8334,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8344,7 +8418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eab32e7b-4e23-4193-a1ce-21d6b28c0a04")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 143.51 64.008 90)
 			(effects
 				(font
@@ -8396,7 +8470,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8566,7 +8640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3b29073-431b-474f-a979-34a9d13a1fc2")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 119.38 64.008 90)
 			(effects
 				(font
@@ -8618,7 +8692,72 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "R6")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 166.37 167.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7b8e37a-5bf6-4949-8459-2d865a2469c9")
+		(property "Reference" "J16"
+			(at 169.926 167.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VR2_3GND"
+			(at 169.926 169.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
+			(at 166.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 166.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa556311-0063-4430-9140-36b26be6bc2d")
+		)
+		(instances
+			(project "springreverb"
+				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -8722,7 +8861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feff53e0-d585-46db-ba36-2da227c8f71d")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 80.01 142.8749 90)
 			(effects
 				(font
@@ -8773,7 +8912,7 @@
 		(instances
 			(project "springreverb"
 				(path "/db334565-2b42-4a43-9204-0bb0e555e376"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
